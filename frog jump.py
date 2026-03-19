@@ -12,7 +12,7 @@ def fun(idx,arr,dp):
     return dp[idx]
 
 
-
+# satyam
 # arr=[30, 20, 50, 10, 40]
 arr=[20, 30, 40, 20]
 idx=3
