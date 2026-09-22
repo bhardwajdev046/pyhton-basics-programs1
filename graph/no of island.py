@@ -18,9 +18,10 @@ def dfs(i, j, visited):
 
     if i<0 or i>=row or j<0 or j>=col:
         return
+    
     if visited[i][j]==1:
         return
-    if visited[i][j]=='0':
+    if grid[i][j]=='0':
         return
     visited[i][j]=1
     dfs(i+1,j,visited)
